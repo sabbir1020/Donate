@@ -4,8 +4,10 @@
     box-sizing: border-box;
  }
 body{
+   background-color: #FFFFFF;
    
 }
+/* header conatiner start */
 .header-container{
     background-image: url(images/donation3.jpg);
     background-repeat: no-repeat;
@@ -18,40 +20,151 @@ body{
     color: white;
     padding-top: 150px;
     line-height: 1.5;
-   
+
+}
+.header-descried h1{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 .button-btn{
-    background-color: tomato;
+    background-color: #FF5959;
     color: white;
-    border-radius: 10px;
-    padding: 15px  30px;
+    border-radius: 5px;
+    padding: 15px  25px;
     margin-top: 15px;
 }
+ 
+/* header conatiner End */
 
 
-/* Donate Today */
+/* Donate Today start */
 .Donate-title{
     text-align: center;
     margin-top: 75px;
     line-height: 1.5;
 }
+.Donate-title h1{
+    font-family: 'Poppins', sans-serif;
+}
 .Donate-money{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 1px solid blue; */
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 250px;
+    padding: 20px;
+    
 }
 .box{
-    border: 1px solid salmon;
+  
     border-radius: 5px;
-    width: 150px;
+    width: 100px;
     height: 100px;
-    background-color: aliceblue;
+    background-color: #FAFAFA;
     text-align: center;
     padding: 40px 0;
+}
+#box-note{
+  border: 2px solid red;
+  color: red;
+  font-weight: 700;
+  font-size: large;
 }
 .amount{
     text-align: center;
 }
+/* Donate Today End */
+
+  /* our Gallery start */
+  .container{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+ .gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .gallery-container img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+ } 
+ /* our Gallery End  */
+
+/* Our donate plan start */
+.donate-container{
+
+    margin: 30px 100px;
+}
+ .donate-plan{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.5;
+ }
+.card{
+    width: 310px;
+    height: 250px;
+    /* border: 1px solid darkgray; */
+    border-radius: 5px;
+    line-height: 1.5;
+    background-color: #EDF5F6;
+}
+#card-color{
+    background-color:#FFEEEE ;
+}
+#card-thrid-color{
+    background-color: #FFF4D6;
+}
+.card img{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.card-details {
+    margin-left: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+/* Our donate plan  End */
+
+ /* update me start */
+.update{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.send-email{
+    text-align: center;
+    margin: 20px 250px;
+    background-color: #FFF4D6;
+    height: 150px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+/* update me End  */
+
+/* footer start  */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+    height: 200px;
+    padding: 70px 0 ;
+    margin-top: 100px;
+    /* margin: 0px 70px ; */
+    /* margin: 30px 0 ; */
+}
+footer h1{
+    color:#FF5959;
+}
+/* footer End  */
